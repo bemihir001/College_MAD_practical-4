@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:hint="Web Url"
         app:startIconDrawable="@drawable/ic_weburl"
+        app:boxStrokeColor="@color/black"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/button_browse"
@@ -22,6 +23,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/url"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textImeMultiLine"
@@ -47,6 +49,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Call Number"
+        app:boxStrokeColor="@color/black"
         app:startIconDrawable="@drawable/ic_baseline_phone_24"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,6 +61,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/number"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
@@ -83,6 +87,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Contact List"
+        app:boxStrokeColor="@color/black"
         app:startIconDrawable="@drawable/ic_baseline_folder_24"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         app:layout_constraintStart_toStartOf="parent"
@@ -93,6 +98,7 @@
 
 
         <com.google.android.material.textfield.TextInputEditText
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
@@ -118,6 +124,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Call Log"
+        app:boxStrokeColor="@color/black"
         app:startIconDrawable="@drawable/ic_baseline_phone_forwarded_24"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         app:layout_constraintStart_toStartOf="parent"
@@ -153,6 +160,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Gallery"
+        app:boxStrokeColor="@color/black"
         app:startIconDrawable="@drawable/ic_baseline_photo_24"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         app:layout_constraintStart_toStartOf="parent"
@@ -188,6 +196,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Camera"
+        app:boxStrokeColor="@color/black"
         app:startIconDrawable="@drawable/ic_baseline_camera_alt_24"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         app:layout_constraintStart_toStartOf="parent"
@@ -223,6 +232,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Alarm"
+        app:boxStrokeColor="@color/black"
         app:startIconDrawable="@drawable/ic_baseline_access_alarm_24"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         app:layout_constraintStart_toStartOf="parent"
